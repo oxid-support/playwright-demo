@@ -1,0 +1,83 @@
+services:
+  pw:
+    image: mcr.microsoft.com/playwright:v1.58.0-noble
+    working_dir: /work
+    init: true
+    ipc: host
+    shm_size: "1gb"
+    environment:
+      CI: "true"
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+    volumes:
+      - ./:/work
+      - pw_node_modules:/work/node_modules
+    command:
+      - bash
+      - -lc
+      - |
+          set -euo pipefail
+
+          # Erwartet: package.json existiert bereits (keine Auto-Erstellung mehr)
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+          npm test
+
+  pw_record:
+    build:
+      context: .
+      dockerfile: Dockerfile.pw-vnc
+    working_dir: /work
+    init: true
+    ipc: host
+    shm_size: "1gb"
+    environment:
+      PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      TARGET_URL: "https://mk.oxid.academy"
+      OUT_FILE: "tests/mk.codegen.spec.js"
+    ports:
+      - "127.0.0.1:6080:6080"
+    volumes:
+      - ./:/work
+      - pw_node_modules:/work/node_modules
+    command:
+      - bash
+      - -lc
+      - |
+          set -euo pipefail
+
+          # Erwartet: package.json existiert bereits (keine Auto-Erstellung mehr)
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+          mkdir -p "$(dirname "$OUT_FILE")"
+
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1920x1080x24 -ac +extension RANDR &
+
+          for i in $(seq 1 50); do
+            if xdpyinfo -display :99 >/dev/null 2>&1; then break; fi
+            sleep 0.1
+          done
+          xdpyinfo -display :99 >/dev/null 2>&1 || { echo "Xvfb not ready"; exit 1; }
+
+          openbox >/tmp/openbox.log 2>&1 &
+
+          x11vnc -display :99 -forever -nopw -shared -rfbport 5900 \
+            -xkb -noxrecord -noxfixes -noxdamage \
+            -bg -o /tmp/x11vnc.log
+
+          websockify --web=/usr/share/novnc/ 6080 localhost:5900 >/tmp/websockify.log 2>&1 &
+
+          echo "noVNC: http://localhost:6080/vnc.html"
+          echo "Recording to: $OUT_FILE"
+          npx playwright codegen -o "$OUT_FILE" "$TARGET_URL"
+
+volumes:
+  pw_node_modules:

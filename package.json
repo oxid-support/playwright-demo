@@ -1,0 +1,12 @@
+{
+  "name": "pw-demo",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": ""
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "xvfb-run playwright test --headed",
+    "report": "playwright show-report"
+  }
+}

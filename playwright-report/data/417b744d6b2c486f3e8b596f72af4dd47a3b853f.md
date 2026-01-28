@@ -1,0 +1,1131 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - img [ref=e9]
+            - generic [ref=e11]: Fast Delivery
+          - listitem [ref=e12]:
+            - img [ref=e13]
+            - generic [ref=e15]: Individual Advice
+          - listitem [ref=e16]:
+            - img [ref=e17]
+            - generic [ref=e19]: Express Delivery
+          - listitem [ref=e20]:
+            - img [ref=e21]
+            - generic [ref=e23]: Top Quality
+          - listitem [ref=e24]:
+            - img [ref=e25]
+            - generic [ref=e27]: High Customer Satisfaction
+        - button "Change language and currency" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+      - generic [ref=e34]:
+        - link "OXID eShop" [ref=e35] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/home/
+          - img "OXID eShop" [ref=e36]
+        - search [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: Search
+            - textbox "Search" [ref=e40]
+            - button "Search" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+        - group [ref=e44]:
+          - button "Log in" [ref=e45] [cursor=pointer]:
+            - img [ref=e46]
+          - link "My wish list" [ref=e48] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/my-notes/
+            - img [ref=e49]
+          - 'button "Shopping cart - number of items: 0" [ref=e51] [cursor=pointer]':
+            - img [ref=e52]
+    - navigation [ref=e55]:
+      - generic [ref=e57]:
+        - link "Merchandise" [ref=e59] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/
+        - link "Spare parts" [ref=e61] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/
+        - link "Vehicles" [ref=e63] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Vehicles/
+  - main [ref=e65]:
+    - heading "Home page" [level=1] [ref=e66]
+    - generic [ref=e72]:
+      - generic [ref=e74]:
+        - img "The sporty" [ref=e75]
+        - generic [ref=e76]:
+          - generic [ref=e77]: The sporty
+          - paragraph [ref=e78]: Experience the ultimate driving dynamics with the OX7 Coupé! This stunning sports car combines elegant design with impressive performance for an unparalleled driving experience.
+          - generic [ref=e79] [cursor=pointer]: View now
+        - link "View now":
+          - /url: /en/Sports-car-the-fast-powerful-and-stylish-car/
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - img "The entrepreneur" [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e85]: The entrepreneur
+            - paragraph [ref=e86]: Discover the OX3 minivan - the versatile box van for all your transport needs! With generous space and practical features, it is the ideal choice for transporting people or goods.
+            - generic [ref=e87] [cursor=pointer]: View now
+          - link "View now":
+            - /url: /en/Our-van-Practical-Flexible-and-Economical/
+        - generic [ref=e88]:
+          - img "The family friendly" [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]: The family friendly
+            - paragraph [ref=e92]: Drive into the future with the OX5 Family SUV! With modern design, spacious interior and advanced technology, it is the perfect companion for your adventures with the whole family. Experience comfort and safety on a new level.
+            - generic [ref=e93] [cursor=pointer]: View now
+          - link "View now":
+            - /url: /en/OX5-Family-SUV-The-family-friendly-choice/
+    - generic [ref=e95]:
+      - generic [ref=e96]: Categories
+      - generic [ref=e97]:
+        - link "Downloads" [ref=e98] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Downloads/
+        - link "Caps" [ref=e99] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Caps/
+        - link "Handbags" [ref=e100] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Handbags/
+        - link "Shorts" [ref=e101] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Shorts/
+        - link "Suitcases" [ref=e102] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Suitcases/
+        - link "Sunglasses" [ref=e103] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/
+        - link "T-Shirts" [ref=e104] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/
+        - link "Umbrellas" [ref=e105] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Umbrellas/
+        - link "Watches" [ref=e106] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Merchandise/Watches/
+        - link "Accessories" [ref=e107] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Accessories/
+        - link "Axle parts" [ref=e108] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Axle-parts/
+        - link "Axles & Suspensions" [ref=e109] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/
+        - link "Chassis" [ref=e110] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Chassis/
+        - link "Electronics" [ref=e111] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Electronics/
+        - link "Technology" [ref=e112] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Technology/
+        - link "Wheels" [ref=e113] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Spare-parts/Wheels/
+        - link "Vehicles" [ref=e114] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/Vehicles/
+    - generic [ref=e120]:
+      - generic [ref=e122]:
+        - 'img "NEW: Now also in blue" [ref=e123]'
+        - generic [ref=e124]:
+          - generic [ref=e125]: "NEW: Now also in blue"
+          - generic [ref=e126] [cursor=pointer]: View now
+        - 'link "View now - NEW: Now also in blue"':
+          - /url: /en/OXID-eMotor-Nexa-X3-BlueEagle-Now-also-available-in-blue/
+      - generic [ref=e128]:
+        - img "20% discount on cars" [ref=e129]
+        - generic [ref=e130]:
+          - generic [ref=e131]: 20% discount on cars
+          - generic [ref=e132] [cursor=pointer]: View now
+        - link "View now - 20% discount on cars":
+          - /url: /en/Attractive-savings/
+      - generic [ref=e134]:
+        - img "Discover fashion" [ref=e135]
+        - generic [ref=e136]:
+          - generic [ref=e137]: Discover fashion
+          - generic [ref=e138] [cursor=pointer]: View now
+        - link "View now - Discover fashion":
+          - /url: /en/Fashion/
+      - generic [ref=e140]:
+        - img "Rims for half price" [ref=e141]
+        - generic [ref=e142]:
+          - generic [ref=e143]: Rims for half price
+          - generic [ref=e144] [cursor=pointer]: View now
+        - link "View now - Rims for half price":
+          - /url: /en/Rims-for-half-price/
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - heading "Just arrived" [level=2] [ref=e147]
+        - paragraph [ref=e148]: Fresh as it gets. One minute in the box and now already in store.
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - img "Product image of the product “Ocean Eyes ”" [ref=e152]
+            - generic:
+              - img "Product image of the product “Ocean Eyes ”"
+            - link "Details - Ocean Eyes":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ocean-Eyes.html
+            - generic:
+              - generic [ref=e155]:
+                - spinbutton "Quantity - Ocean Eyes" [ref=e156]: "1"
+                - button "To cart" [ref=e157] [cursor=pointer]
+              - link "Add to wish list - Ocean Eyes" [ref=e159] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=22e135eb03a3aa69198ae30762ee785c&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e160]
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Ocean Eyes
+              - generic [ref=e166]: 106,50 €
+            - generic [ref=e167]: Polarized sports sunglasses - unisex
+            - link "Details - Ocean Eyes":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ocean-Eyes.html
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - img "Product image of the product “Crew Neck Recycled T-Shirt ”" [ref=e170]
+            - generic:
+              - img "Product image of the product “Crew Neck Recycled T-Shirt ”"
+            - link "Details - Crew Neck Recycled T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+            - generic:
+              - link "Details - Crew Neck Recycled T-Shirt" [ref=e172] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+              - link "Add to wish list - Crew Neck Recycled T-Shirt" [ref=e174] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=3832fac1df78d01c97717a003ef42456&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e175]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: Crew Neck Recycled T-Shirt
+              - generic [ref=e181]: 29,50 €
+            - generic [ref=e182]: Sustainable T-shirt round neck
+            - link "Details - Crew Neck Recycled T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - img "Product image of the product “Axle beam Roadurance ”" [ref=e185]
+            - link "Details - Axle beam Roadurance":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Axle-beam-Roadurance.html
+            - generic:
+              - generic [ref=e188]:
+                - spinbutton "Quantity - Axle beam Roadurance" [ref=e189]: "1"
+                - button "To cart" [ref=e190] [cursor=pointer]
+              - link "Add to wish list - Axle beam Roadurance" [ref=e192] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=80de368fc472f918ff3a3f7f906ee856&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e193]
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: Axle beam Roadurance
+              - generic [ref=e199]: 827,75 €
+            - generic [ref=e200]: Endurance rear axle, metal simulated, power wagon
+            - link "Details - Axle beam Roadurance":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Axle-beam-Roadurance.html
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img "Product image of the product “OX5 Family SUV ”" [ref=e203]
+            - generic:
+              - img "Product image of the product “OX5 Family SUV ”"
+            - link "Details - OX5 Family SUV":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX5-Family-SUV.html
+            - generic:
+              - generic [ref=e206]:
+                - spinbutton "Quantity - OX5 Family SUV" [ref=e207]: "1"
+                - button "To cart" [ref=e208] [cursor=pointer]
+              - link "Add to wish list - OX5 Family SUV" [ref=e210] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=94542966268ec6ae1bf1e0d3f9675ac8&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e211]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e215]: OX5 Family SUV
+              - generic [ref=e217]: 39.999,00 €
+            - generic [ref=e218]: The vehicle for the whole family
+            - link "Details - OX5 Family SUV":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX5-Family-SUV.html
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - img "Product image of the product “OX3 Minibus ”" [ref=e221]
+            - generic:
+              - img "Product image of the product “OX3 Minibus ”"
+            - link "Details - OX3 Minibus":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX3-Minibus.html
+            - generic:
+              - link "Details - OX3 Minibus" [ref=e223] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Vehicles/OX3-Minibus.html
+              - link "Add to wish list - OX3 Minibus" [ref=e225] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=1ffcc31548f4c70094dc854d899af778&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e226]
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: OX3 Minibus
+              - generic [ref=e232]: 55.000,00 €
+            - generic [ref=e233]: Transports or home on wheels
+            - link "Details - OX3 Minibus":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX3-Minibus.html
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - img "Product image of the product “Performance ”" [ref=e236]
+            - link "Details - Performance":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Performance.html
+            - generic:
+              - generic [ref=e239]:
+                - spinbutton "Quantity - Performance" [ref=e240]: "1"
+                - button "To cart" [ref=e241] [cursor=pointer]
+              - link "Add to wish list - Performance" [ref=e243] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=604cc312c5391b250fcde470e0d74d54&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e244]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - generic [ref=e248]: Performance
+              - generic [ref=e250]: 30,00 €
+            - generic [ref=e251]: Snapback- Cap men, navy
+            - link "Details - Performance":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Performance.html
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - img "Product image of the product “Universal ”" [ref=e254]
+            - link "Details - Universal":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Universal.html
+            - generic:
+              - generic [ref=e257]:
+                - spinbutton "Quantity - Universal" [ref=e258]: "1"
+                - button "To cart" [ref=e259] [cursor=pointer]
+              - link "Add to wish list - Universal" [ref=e261] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=2d9a1817ca1ca27fedf20cfe11931a33&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e262]
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - generic [ref=e266]: Universal
+              - generic [ref=e268]: 28,99 €
+            - generic [ref=e269]: Cap- Unisex
+            - link "Details - Universal":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Universal.html
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img "Product image of the product “Creation ”" [ref=e272]
+            - link "Details - Creation":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Creation.html
+            - generic:
+              - generic [ref=e275]:
+                - spinbutton "Quantity - Creation" [ref=e276]: "1"
+                - button "To cart" [ref=e277] [cursor=pointer]
+              - link "Add to wish list - Creation" [ref=e279] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b83e69ea2d98c3ec5254ed55b1ac99aa&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e280]
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]: Creation
+              - generic [ref=e286]: 20,99 €
+            - generic [ref=e287]: Baseball Cap Ladies
+            - link "Details - Creation":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Creation.html
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - img "Product image of the product “Panorama ”" [ref=e290]
+            - link "Details - Panorama":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Panorama.html
+            - generic:
+              - generic [ref=e293]:
+                - spinbutton "Quantity - Panorama" [ref=e294]: "1"
+                - button "To cart" [ref=e295] [cursor=pointer]
+              - link "Add to wish list - Panorama" [ref=e297] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=5e6a374e212258abbfd76b6adf911772&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e298]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]: Panorama
+              - generic [ref=e304]: 20,90 €
+            - generic [ref=e305]: Snapback cap men
+            - link "Details - Panorama":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Panorama.html
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - img "Product image of the product “Polo ”" [ref=e308]
+            - link "Details - Polo":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Polo.html
+            - generic:
+              - generic [ref=e311]:
+                - spinbutton "Quantity - Polo" [ref=e312]: "1"
+                - button "To cart" [ref=e313] [cursor=pointer]
+              - link "Add to wish list - Polo" [ref=e315] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b9d37b0c435cb7a3d4a797fce18ee095&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e316]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: Polo
+              - generic [ref=e322]: 159,00 €
+            - generic [ref=e323]: Sporty all-rounder watch made by Imperial, waterproof up to 300m
+            - link "Details - Polo":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Polo.html
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - img "Product image of the product “Officer GM ”" [ref=e326]
+            - link "Details - Officer GM":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Officer-GM.html
+            - generic:
+              - generic [ref=e329]:
+                - spinbutton "Quantity - Officer GM" [ref=e330]: "1"
+                - button "To cart" [ref=e331] [cursor=pointer]
+              - link "Add to wish list - Officer GM" [ref=e333] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=dbdf043060caa152bdfaa56ab88e31ff&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e334]
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic [ref=e338]: Officer GM
+              - generic [ref=e340]: 349,00 €
+            - generic [ref=e341]: Radio controlled watch with metal case, men
+            - link "Details - Officer GM":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Officer-GM.html
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - img "Product image of the product “Gold Spirit ”" [ref=e344]
+            - link "Details - Gold Spirit":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Gold-Spirit.html
+            - generic:
+              - generic [ref=e347]:
+                - spinbutton "Quantity - Gold Spirit" [ref=e348]: "1"
+                - button "To cart" [ref=e349] [cursor=pointer]
+              - link "Add to wish list - Gold Spirit" [ref=e351] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=ac6ac588263a6c15dbfef57c1acd637b&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e352]
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - generic [ref=e356]: Gold Spirit
+              - generic [ref=e358]: 499,00 €
+            - generic [ref=e359]: Wristwatch for the demanding gentleman
+            - link "Details - Gold Spirit":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Gold-Spirit.html
+        - generic [ref=e360]:
+          - generic [ref=e361]:
+            - img "Product image of the product “Naxa XS Style Edition ”" [ref=e362]
+            - link "Details - Naxa XS Style Edition":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Naxa-XS-Style-Edition.html
+            - generic:
+              - generic [ref=e365]:
+                - spinbutton "Quantity - Naxa XS Style Edition" [ref=e366]: "1"
+                - button "To cart" [ref=e367] [cursor=pointer]
+              - link "Add to wish list - Naxa XS Style Edition" [ref=e369] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=64851d4a6f2fb1c13bb63132f4f5107a&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e370]
+          - generic [ref=e372]:
+            - generic [ref=e373]:
+              - generic [ref=e374]: Naxa XS Style Edition
+              - generic [ref=e376]: 179,00 €
+            - generic [ref=e377]: Classic ladies watch Naxa in a special edition
+            - link "Details - Naxa XS Style Edition":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Naxa-XS-Style-Edition.html
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - img "Product image of the product “Ophira Retro ”" [ref=e380]
+            - generic:
+              - img "Product image of the product “Ophira Retro ”"
+            - link "Details - Ophira Retro":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ophira-Retro.html
+            - generic:
+              - generic [ref=e383]:
+                - spinbutton "Quantity - Ophira Retro" [ref=e384]: "1"
+                - button "To cart" [ref=e385] [cursor=pointer]
+              - link "Add to wish list - Ophira Retro" [ref=e387] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=a9fa89b52a7a8173a4a7fb2e8c6c24c2&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e388]
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - generic [ref=e392]: Ophira Retro
+              - generic [ref=e394]: 99,90 €
+            - generic [ref=e395]: Golden retro ladies sunglasses
+            - link "Details - Ophira Retro":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ophira-Retro.html
+        - generic [ref=e396]:
+          - generic [ref=e397]:
+            - img "Product image of the product “Midnight - All Black ”" [ref=e398]
+            - generic:
+              - img "Product image of the product “Midnight - All Black ”"
+            - link "Details - Midnight - All Black":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Midnight-All-Black.html
+            - generic:
+              - generic [ref=e401]:
+                - spinbutton "Quantity - Midnight - All Black" [ref=e402]: "1"
+                - button "To cart" [ref=e403] [cursor=pointer]
+              - link "Add to wish list - Midnight - All Black" [ref=e405] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=9917c1ca16eded49fd089e47aeddda37&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e406]
+          - generic [ref=e408]:
+            - generic [ref=e409]:
+              - generic [ref=e410]: Midnight - All Black
+              - generic [ref=e412]: 85,90 €
+            - generic [ref=e413]: Sunglasses - Men
+            - link "Details - Midnight - All Black":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Midnight-All-Black.html
+        - generic [ref=e414]:
+          - generic [ref=e415]:
+            - img "Product image of the product “Amber ”" [ref=e416]
+            - generic:
+              - img "Product image of the product “Amber ”"
+            - link "Details - Amber":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Amber.html
+            - generic:
+              - generic [ref=e419]:
+                - spinbutton "Quantity - Amber" [ref=e420]: "1"
+                - button "To cart" [ref=e421] [cursor=pointer]
+              - link "Add to wish list - Amber" [ref=e423] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=15d7c73d18d8a2aa7494cb4b29b65c6d&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e424]
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic [ref=e428]: Amber
+              - generic [ref=e430]: 79,00 €
+            - generic [ref=e431]: Ladies sunglasses in elegant look
+            - link "Details - Amber":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Amber.html
+        - generic [ref=e432]:
+          - generic [ref=e433]:
+            - img "Product image of the product “Wave Runner Hemp T-Shirt ”" [ref=e434]
+            - generic:
+              - img "Product image of the product “Wave Runner Hemp T-Shirt ”"
+            - link "Details - Wave Runner Hemp T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Wave-Runner-Hemp-T-Shirt.html
+            - generic:
+              - link "Details - Wave Runner Hemp T-Shirt" [ref=e436] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Wave-Runner-Hemp-T-Shirt.html
+              - link "Add to wish list - Wave Runner Hemp T-Shirt" [ref=e438] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=9bb525e55678ff4a387f0e81467cc295&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e439]
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - generic [ref=e443]: Wave Runner Hemp T-Shirt
+              - generic [ref=e445]: 40,00 €
+            - generic [ref=e446]: Wonderfully soft and luxurious ladies T-shirt
+            - link "Details - Wave Runner Hemp T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Wave-Runner-Hemp-T-Shirt.html
+      - generic:
+        - button "Move carousel left - Just arrived" [ref=e447] [cursor=pointer]:
+          - img [ref=e448]
+        - button "Move carousel right - Just arrived" [ref=e450] [cursor=pointer]:
+          - img [ref=e451]
+    - generic [ref=e453]:
+      - generic [ref=e454]:
+        - heading "Top seller" [level=2] [ref=e455]
+        - paragraph [ref=e456]: Only 11 products, but the best we can offer you.
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - generic [ref=e459]:
+            - img "Product image of the product “ME-DCS-X81 ”" [ref=e460]
+            - link "Details - ME-DCS-X81":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Electronics/ME-DCS-X81.html
+            - generic:
+              - generic [ref=e463]:
+                - spinbutton "Quantity - ME-DCS-X81" [ref=e464]: "1"
+                - button "To cart" [ref=e465] [cursor=pointer]
+              - link "Add to wish list - ME-DCS-X81" [ref=e467] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=be36fa741c53adfe364ac3c9c7831ad1&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e468]
+          - generic [ref=e470]:
+            - generic [ref=e471]:
+              - generic [ref=e472]: ME-DCS-X81
+              - generic [ref=e474]: 1.146,55 €
+            - generic [ref=e475]: Control unit assistance systems distance radar
+            - link "Details - ME-DCS-X81":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Electronics/ME-DCS-X81.html
+        - generic [ref=e476]:
+          - generic [ref=e477]:
+            - img "Product image of the product “Amber ”" [ref=e478]
+            - generic:
+              - img "Product image of the product “Amber ”"
+            - link "Details - Amber":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Amber.html
+            - generic:
+              - generic [ref=e481]:
+                - spinbutton "Quantity - Amber" [ref=e482]: "1"
+                - button "To cart" [ref=e483] [cursor=pointer]
+              - link "Add to wish list - Amber" [ref=e485] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=15d7c73d18d8a2aa7494cb4b29b65c6d&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e486]
+          - generic [ref=e488]:
+            - generic [ref=e489]:
+              - generic [ref=e490]: Amber
+              - generic [ref=e492]: 79,00 €
+            - generic [ref=e493]: Ladies sunglasses in elegant look
+            - link "Details - Amber":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Amber.html
+        - generic [ref=e494]:
+          - generic [ref=e495]:
+            - img "Product image of the product “Ocean Eyes ”" [ref=e496]
+            - generic:
+              - img "Product image of the product “Ocean Eyes ”"
+            - link "Details - Ocean Eyes":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ocean-Eyes.html
+            - generic:
+              - generic [ref=e499]:
+                - spinbutton "Quantity - Ocean Eyes" [ref=e500]: "1"
+                - button "To cart" [ref=e501] [cursor=pointer]
+              - link "Add to wish list - Ocean Eyes" [ref=e503] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=22e135eb03a3aa69198ae30762ee785c&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e504]
+          - generic [ref=e506]:
+            - generic [ref=e507]:
+              - generic [ref=e508]: Ocean Eyes
+              - generic [ref=e510]: 106,50 €
+            - generic [ref=e511]: Polarized sports sunglasses - unisex
+            - link "Details - Ocean Eyes":
+              - /url: https://mk.oxid.academy/en/Merchandise/Sunglasses/Ocean-Eyes.html
+        - generic [ref=e512]:
+          - generic [ref=e513]:
+            - img "Product image of the product “OX5 Family SUV ”" [ref=e514]
+            - generic:
+              - img "Product image of the product “OX5 Family SUV ”"
+            - link "Details - OX5 Family SUV":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX5-Family-SUV.html
+            - generic:
+              - generic [ref=e517]:
+                - spinbutton "Quantity - OX5 Family SUV" [ref=e518]: "1"
+                - button "To cart" [ref=e519] [cursor=pointer]
+              - link "Add to wish list - OX5 Family SUV" [ref=e521] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=94542966268ec6ae1bf1e0d3f9675ac8&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e522]
+          - generic [ref=e524]:
+            - generic [ref=e525]:
+              - generic [ref=e526]: OX5 Family SUV
+              - generic [ref=e528]: 39.999,00 €
+            - generic [ref=e529]: The vehicle for the whole family
+            - link "Details - OX5 Family SUV":
+              - /url: https://mk.oxid.academy/en/Vehicles/OX5-Family-SUV.html
+        - generic [ref=e530]:
+          - generic [ref=e531]:
+            - img "Product image of the product “The Evergreen Hemp T-Shirt ”" [ref=e532]
+            - generic:
+              - img "Product image of the product “The Evergreen Hemp T-Shirt ”"
+            - link "Details - The Evergreen Hemp T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/The-Evergreen-Hemp-T-Shirt.html
+            - generic:
+              - link "Details - The Evergreen Hemp T-Shirt" [ref=e534] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/The-Evergreen-Hemp-T-Shirt.html
+              - link "Add to wish list - The Evergreen Hemp T-Shirt" [ref=e536] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=42207f2a7d9c74104ee9445d8b24fe77&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e537]
+          - generic [ref=e539]:
+            - generic [ref=e540]:
+              - generic [ref=e541]: The Evergreen Hemp T-Shirt
+              - generic [ref=e543]: 60,00 €
+            - generic [ref=e544]: T-shirt from 100% hemp - bright
+            - link "Details - The Evergreen Hemp T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/The-Evergreen-Hemp-T-Shirt.html
+        - generic [ref=e545]:
+          - generic [ref=e546]:
+            - img "Product image of the product “Balance ”" [ref=e547]
+            - link "Details - Balance":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Balance.html
+            - generic:
+              - link "Details - Balance" [ref=e549] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Balance.html
+              - link "Add to wish list - Balance" [ref=e551] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=de01cfd9287e9c4af7f24ea907c8a0e6&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e552]
+          - generic [ref=e554]:
+            - generic [ref=e555]:
+              - generic [ref=e556]: Balance
+              - generic [ref=e558]: 24,99 €
+            - generic [ref=e559]: Kids certified organic cotton short sleeve t-shirt
+            - link "Details - Balance":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Balance.html
+        - generic [ref=e560]:
+          - generic [ref=e561]:
+            - img "Product image of the product “Match ”" [ref=e562]
+            - link "Details - Match":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Match.html
+            - generic:
+              - link "Details - Match" [ref=e564] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Match.html
+              - link "Add to wish list - Match" [ref=e566] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=91e00da910c20b0b31711437162fa3e5&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e567]
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - generic [ref=e571]: Match
+              - generic [ref=e573]: 22,50 €
+            - generic [ref=e574]: Striped short sleeve t-shirt, kids
+            - link "Details - Match":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Match.html
+        - generic [ref=e575]:
+          - generic [ref=e576]:
+            - img "Product image of the product “Axle beam Roadurance ”" [ref=e577]
+            - link "Details - Axle beam Roadurance":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Axle-beam-Roadurance.html
+            - generic:
+              - generic [ref=e580]:
+                - spinbutton "Quantity - Axle beam Roadurance" [ref=e581]: "1"
+                - button "To cart" [ref=e582] [cursor=pointer]
+              - link "Add to wish list - Axle beam Roadurance" [ref=e584] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=80de368fc472f918ff3a3f7f906ee856&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e585]
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - generic [ref=e589]: Axle beam Roadurance
+              - generic [ref=e591]: 827,75 €
+            - generic [ref=e592]: Endurance rear axle, metal simulated, power wagon
+            - link "Details - Axle beam Roadurance":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Axle-beam-Roadurance.html
+        - generic [ref=e593]:
+          - generic [ref=e594]:
+            - img "Product image of the product “Rear axle sport ”" [ref=e595]
+            - link "Details - Rear axle sport":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Rear-axle-sport.html
+            - generic:
+              - generic [ref=e598]:
+                - spinbutton "Quantity - Rear axle sport" [ref=e599]: "1"
+                - button "To cart" [ref=e600] [cursor=pointer]
+              - link "Add to wish list - Rear axle sport" [ref=e602] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=813aa0d26b7b652c1a225657585315a1&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e603]
+          - generic [ref=e605]:
+            - generic [ref=e606]:
+              - generic [ref=e607]: Rear axle sport
+              - generic [ref=e609]: 1.399,00 €
+            - generic [ref=e610]: Lightweight rear axle, aluminum, sports suspension, stabilizer bar
+            - link "Details - Rear axle sport":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Rear-axle-sport.html
+        - generic [ref=e611]:
+          - generic [ref=e612]:
+            - img "Product image of the product “Differential rear axle ”" [ref=e613]
+            - link "Details - Differential rear axle":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Differential-rear-axle.html
+            - generic:
+              - generic [ref=e616]:
+                - spinbutton "Quantity - Differential rear axle" [ref=e617]: "1"
+                - button "To cart" [ref=e618] [cursor=pointer]
+              - link "Add to wish list - Differential rear axle" [ref=e620] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b74124b0019517455ddf618273299bac&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e621]
+          - generic [ref=e623]:
+            - generic [ref=e624]:
+              - generic [ref=e625]: Differential rear axle
+              - generic [ref=e627]: 899,00 €
+            - generic [ref=e628]: Sport differential rear axle, 35:9
+            - link "Details - Differential rear axle":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Differential-rear-axle.html
+        - generic [ref=e629]:
+          - generic [ref=e630]:
+            - img "Product image of the product “Drive shaft Quickstart ”" [ref=e631]
+            - link "Details - Drive shaft Quickstart":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Drive-shaft-Quickstart.html
+            - generic:
+              - generic [ref=e634]:
+                - spinbutton "Quantity - Drive shaft Quickstart" [ref=e635]: "1"
+                - button "To cart" [ref=e636] [cursor=pointer]
+              - link "Add to wish list - Drive shaft Quickstart" [ref=e638] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=75593b95665e3dae1e6a572197be466d&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e639]
+          - generic [ref=e641]:
+            - generic [ref=e642]:
+              - generic [ref=e643]: Drive shaft Quickstart
+              - generic [ref=e645]: 635,00 €
+            - generic [ref=e646]: Drive shaft, lightweight construction, can be installed on left and right side
+            - link "Details - Drive shaft Quickstart":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Drive-shaft-Quickstart.html
+      - generic:
+        - button "Move carousel left - Top seller" [ref=e647] [cursor=pointer]:
+          - img [ref=e648]
+        - button "Move carousel right - Top seller" [ref=e650] [cursor=pointer]:
+          - img [ref=e651]
+    - generic [ref=e653]:
+      - generic [ref=e654]:
+        - heading "Week's Special" [level=2] [ref=e655]
+        - paragraph [ref=e656]: Save money with our current bargains!
+      - generic [ref=e657]:
+        - generic [ref=e658]:
+          - generic [ref=e659]:
+            - img "Product image of the product “Polo ”" [ref=e660]
+            - link "Details - Polo":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Polo.html
+            - generic:
+              - generic [ref=e663]:
+                - spinbutton "Quantity - Polo" [ref=e664]: "1"
+                - button "To cart" [ref=e665] [cursor=pointer]
+              - link "Add to wish list - Polo" [ref=e667] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b9d37b0c435cb7a3d4a797fce18ee095&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e668]
+          - generic [ref=e670]:
+            - generic [ref=e671]:
+              - generic [ref=e672]: Polo
+              - generic [ref=e674]: 159,00 €
+            - generic [ref=e675]: Sporty all-rounder watch made by Imperial, waterproof up to 300m
+            - link "Details - Polo":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Polo.html
+        - generic [ref=e676]:
+          - generic [ref=e677]:
+            - img "Product image of the product “City Evolution Tyre ”" [ref=e678]
+            - generic:
+              - img "Product image of the product “City Evolution Tyre ”"
+            - link "Details - City Evolution Tyre":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Wheels/City-Evolution-Tyre.html
+            - generic:
+              - generic [ref=e681]:
+                - spinbutton "Quantity - City Evolution Tyre" [ref=e682]: "1"
+                - button "To cart" [ref=e683] [cursor=pointer]
+              - link "Add to wish list - City Evolution Tyre" [ref=e685] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=32b074b47ada2e5617007144ebc5c6a4&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e686]
+          - generic [ref=e688]:
+            - generic [ref=e689]:
+              - generic [ref=e690]: City Evolution Tyre
+              - generic [ref=e692]: 62,40 €
+            - generic [ref=e693]: Summer tires for normal operation
+            - link "Details - City Evolution Tyre":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Wheels/City-Evolution-Tyre.html
+        - generic [ref=e694]:
+          - generic [ref=e695]:
+            - img "Product image of the product “Cloudy ”" [ref=e696]
+            - generic:
+              - img "Product image of the product “Cloudy ”"
+            - link "Details - Cloudy":
+              - /url: https://mk.oxid.academy/en/Merchandise/Umbrellas/Cloudy.html
+            - generic:
+              - generic [ref=e699]:
+                - spinbutton "Quantity - Cloudy" [ref=e700]: "1"
+                - button "To cart" [ref=e701] [cursor=pointer]
+              - link "Add to wish list - Cloudy" [ref=e703] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=5764f0ce6942977a5c7329a38f0b1391&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e704]
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - generic [ref=e708]: Cloudy
+              - generic [ref=e710]: 36,99 €
+            - generic [ref=e711]: Large stick umbrella
+            - link "Details - Cloudy":
+              - /url: https://mk.oxid.academy/en/Merchandise/Umbrellas/Cloudy.html
+        - generic [ref=e712]:
+          - generic [ref=e713]:
+            - img "Product image of the product “Creation ”" [ref=e714]
+            - link "Details - Creation":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Creation.html
+            - generic:
+              - generic [ref=e717]:
+                - spinbutton "Quantity - Creation" [ref=e718]: "1"
+                - button "To cart" [ref=e719] [cursor=pointer]
+              - link "Add to wish list - Creation" [ref=e721] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b83e69ea2d98c3ec5254ed55b1ac99aa&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e722]
+          - generic [ref=e724]:
+            - generic [ref=e725]:
+              - generic [ref=e726]: Creation
+              - generic [ref=e728]: 20,99 €
+            - generic [ref=e729]: Baseball Cap Ladies
+            - link "Details - Creation":
+              - /url: https://mk.oxid.academy/en/Merchandise/Caps/Creation.html
+        - generic [ref=e730]:
+          - generic [ref=e731]:
+            - img "Product image of the product “Crew Neck Recycled T-Shirt ”" [ref=e732]
+            - generic:
+              - img "Product image of the product “Crew Neck Recycled T-Shirt ”"
+            - link "Details - Crew Neck Recycled T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+            - generic:
+              - link "Details - Crew Neck Recycled T-Shirt" [ref=e734] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+              - link "Add to wish list - Crew Neck Recycled T-Shirt" [ref=e736] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=3832fac1df78d01c97717a003ef42456&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e737]
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - generic [ref=e741]: Crew Neck Recycled T-Shirt
+              - generic [ref=e743]: 29,50 €
+            - generic [ref=e744]: Sustainable T-shirt round neck
+            - link "Details - Crew Neck Recycled T-Shirt":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Crew-Neck-Recycled-T-Shirt.html
+        - generic [ref=e745]:
+          - generic [ref=e746]:
+            - img "Product image of the product “Roof rack universal ”" [ref=e747]
+            - link "Details - Roof rack universal":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Accessories/Roof-rack-universal.html
+            - generic:
+              - generic [ref=e750]:
+                - spinbutton "Quantity - Roof rack universal" [ref=e751]: "1"
+                - button "To cart" [ref=e752] [cursor=pointer]
+              - link "Add to wish list - Roof rack universal" [ref=e754] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=5513423c5411886244ab086f29752eec&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e755]
+          - generic [ref=e757]:
+            - generic [ref=e758]:
+              - generic [ref=e759]: Roof rack universal
+              - generic [ref=e761]: 145,00 €
+            - generic [ref=e762]: Universal roof rack OXID eMotors
+            - link "Details - Roof rack universal":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Accessories/Roof-rack-universal.html
+        - generic [ref=e763]:
+          - generic [ref=e764]:
+            - img "Product image of the product “Destiny ”" [ref=e765]
+            - generic:
+              - img "Product image of the product “Destiny ”"
+            - link "Details - Destiny":
+              - /url: https://mk.oxid.academy/en/Merchandise/Suitcases/Destiny.html
+            - generic:
+              - generic [ref=e768]:
+                - spinbutton "Quantity - Destiny" [ref=e769]: "1"
+                - button "To cart" [ref=e770] [cursor=pointer]
+              - link "Add to wish list - Destiny" [ref=e772] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=066e3ce119c43c81cc0e46d4f1681eed&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e773]
+          - generic [ref=e775]:
+            - generic [ref=e776]:
+              - generic [ref=e777]: Destiny
+              - generic [ref=e779]: 70,95 €
+            - generic [ref=e780]: Hardcase hand luggage suitcase
+            - link "Details - Destiny":
+              - /url: https://mk.oxid.academy/en/Merchandise/Suitcases/Destiny.html
+        - generic [ref=e781]:
+          - generic [ref=e782]:
+            - img "Product image of the product “Differential rear axle ”" [ref=e783]
+            - link "Details - Differential rear axle":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Differential-rear-axle.html
+            - generic:
+              - generic [ref=e786]:
+                - spinbutton "Quantity - Differential rear axle" [ref=e787]: "1"
+                - button "To cart" [ref=e788] [cursor=pointer]
+              - link "Add to wish list - Differential rear axle" [ref=e790] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=b74124b0019517455ddf618273299bac&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e791]
+          - generic [ref=e793]:
+            - generic [ref=e794]:
+              - generic [ref=e795]: Differential rear axle
+              - generic [ref=e797]: 899,00 €
+            - generic [ref=e798]: Sport differential rear axle, 35:9
+            - link "Details - Differential rear axle":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Axles-Suspensions/Differential-rear-axle.html
+        - generic [ref=e799]:
+          - generic [ref=e800]:
+            - img "Product image of the product “Dune ”" [ref=e801]
+            - generic:
+              - img "Product image of the product “Dune ”"
+            - link "Details - Dune":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Dune.html
+            - generic:
+              - link "Details - Dune" [ref=e803] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Dune.html
+              - link "Add to wish list - Dune" [ref=e805] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=2dce9f23acd676fce678303e68bb1abd&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e806]
+          - generic [ref=e808]:
+            - generic [ref=e809]:
+              - generic [ref=e810]: Dune
+              - generic [ref=e812]: 80,99 €
+            - generic [ref=e813]: Classic polo T-Shirt
+            - link "Details - Dune":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Dune.html
+        - generic [ref=e814]:
+          - generic [ref=e815]:
+            - img "Product image of the product “Godfather HS 7 ”" [ref=e816]
+            - generic:
+              - img "Product image of the product “Godfather HS 7 ”"
+            - link "Details - Godfather HS 7":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Technology/Godfather-HS-7.html
+            - generic:
+              - generic [ref=e819]:
+                - spinbutton "Quantity - Godfather HS 7" [ref=e820]: "1"
+                - button "To cart" [ref=e821] [cursor=pointer]
+              - link "Add to wish list - Godfather HS 7" [ref=e823] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=e498ec8bad5e3e62c2f7b21efba92c17&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e824]
+          - generic [ref=e826]:
+            - generic [ref=e827]:
+              - generic [ref=e828]: Godfather HS 7
+              - generic [ref=e830]: 399,00 €
+            - generic [ref=e831]: "RMS power: 400 watts / Max power: 800 watts, 140 DB, 6.5 in."
+            - link "Details - Godfather HS 7":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Technology/Godfather-HS-7.html
+        - generic [ref=e832]:
+          - generic [ref=e833]:
+            - img "Product image of the product “Gold Spirit ”" [ref=e834]
+            - link "Details - Gold Spirit":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Gold-Spirit.html
+            - generic:
+              - generic [ref=e837]:
+                - spinbutton "Quantity - Gold Spirit" [ref=e838]: "1"
+                - button "To cart" [ref=e839] [cursor=pointer]
+              - link "Add to wish list - Gold Spirit" [ref=e841] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=ac6ac588263a6c15dbfef57c1acd637b&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e842]
+          - generic [ref=e844]:
+            - generic [ref=e845]:
+              - generic [ref=e846]: Gold Spirit
+              - generic [ref=e848]: 499,00 €
+            - generic [ref=e849]: Wristwatch for the demanding gentleman
+            - link "Details - Gold Spirit":
+              - /url: https://mk.oxid.academy/en/Merchandise/Watches/Gold-Spirit.html
+        - generic [ref=e850]:
+          - generic [ref=e851]:
+            - img "Product image of the product “GPS Navigator Multi ”" [ref=e852]
+            - link "Details - GPS Navigator Multi":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Technology/GPS-Navigator-Multi.html
+            - generic:
+              - generic [ref=e855]:
+                - spinbutton "Quantity - GPS Navigator Multi" [ref=e856]: "1"
+                - button "To cart" [ref=e857] [cursor=pointer]
+              - link "Add to wish list - GPS Navigator Multi" [ref=e859] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=ff9679fd8d18bf46e201a3ad32f0ba73&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e860]
+          - generic [ref=e862]:
+            - generic [ref=e863]:
+              - generic [ref=e864]: GPS Navigator Multi
+              - generic [ref=e866]: 154,89 €
+            - generic [ref=e867]: 7 Inch HD GPS Navigation Touch Display, 3 in 1, Truck / Car / Bike
+            - link "Details - GPS Navigator Multi":
+              - /url: https://mk.oxid.academy/en/Spare-parts/Technology/GPS-Navigator-Multi.html
+        - generic [ref=e868]:
+          - generic [ref=e869]:
+            - img "Product image of the product “Hailys ”" [ref=e870]
+            - generic:
+              - img "Product image of the product “Hailys ”"
+            - link "Details - Hailys":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Hailys.html
+            - generic:
+              - link "Details - Hailys" [ref=e872] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Hailys.html
+              - link "Add to wish list - Hailys" [ref=e874] [cursor=pointer]:
+                - /url: https://mk.oxid.academy/en/my-account/?anid=062b2914d57389263ae7bdd773c70f4a&sourcecl=start&actcontrol=oxwarticlebox
+                - img [ref=e875]
+          - generic [ref=e877]:
+            - generic [ref=e878]:
+              - generic [ref=e879]: Hailys
+              - generic [ref=e881]: 35,99 €
+            - generic [ref=e882]: Mens Oversized T-Shirt with Stylish Chest Pocket
+            - link "Details - Hailys":
+              - /url: https://mk.oxid.academy/en/Merchandise/T-Shirts/Hailys.html
+      - generic:
+        - button "Move carousel left - Week's Special" [ref=e883] [cursor=pointer]:
+          - img [ref=e884]
+        - button "Move carousel right - Week's Special" [ref=e886] [cursor=pointer]:
+          - img [ref=e887]
+    - generic [ref=e896]:
+      - img "The sporty (sports car)" [ref=e897]
+      - generic [ref=e899]:
+        - generic [ref=e900]: The sporty (sports car)
+        - paragraph [ref=e901]: For travelers or their business. With its stunning design and powerful engine performance, this sports car is a real eye-catcher on the road. Whether you're looking for an adrenaline rush or a reliable companion for your daily drives, this car has everything you want.
+        - generic [ref=e902] [cursor=pointer]: View now
+      - link "View now":
+        - /url: /en/Sports-car-the-fast-powerful-and-stylish-car/
+    - generic [ref=e905]:
+      - heading "Our brands" [level=2] [ref=e906]
+      - text: We present our carefully selected brands, whose products can be found in our shop.
+      - generic [ref=e907]:
+        - link "Manufacturer logo of the manufacturer “Cubblestone”" [ref=e909] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Cubblestone/
+          - img "Manufacturer logo of the manufacturer “Cubblestone”" [ref=e910]
+        - link "Manufacturer logo of the manufacturer “Eng Depot”" [ref=e912] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Eng-Depot/
+          - img "Manufacturer logo of the manufacturer “Eng Depot”" [ref=e913]
+        - link "Manufacturer logo of the manufacturer “Holo Step”" [ref=e915] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Holo-Step/
+          - img "Manufacturer logo of the manufacturer “Holo Step”" [ref=e916]
+        - link "Manufacturer logo of the manufacturer “Imperial”" [ref=e918] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Imperial/
+          - img "Manufacturer logo of the manufacturer “Imperial”" [ref=e919]
+        - link "Manufacturer logo of the manufacturer “Lubsy”" [ref=e921] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Lubsy/
+          - img "Manufacturer logo of the manufacturer “Lubsy”" [ref=e922]
+        - link "Manufacturer logo of the manufacturer “Sam LaPelle”" [ref=e924] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Sam-LaPelle/
+          - img "Manufacturer logo of the manufacturer “Sam LaPelle”" [ref=e925]
+        - link "Manufacturer logo of the manufacturer “Syncio”" [ref=e927] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/Syncio/
+          - img "Manufacturer logo of the manufacturer “Syncio”" [ref=e928]
+        - link "Manufacturer logo of the manufacturer “XVMT”" [ref=e930] [cursor=pointer]:
+          - /url: https://mk.oxid.academy/en/By-manufacturer/XVMT/
+          - img "Manufacturer logo of the manufacturer “XVMT”" [ref=e931]
+    - generic [ref=e933]:
+      - generic [ref=e934]:
+        - img [ref=e935]
+        - generic [ref=e937]: Fast Delivery
+      - generic [ref=e938]:
+        - img [ref=e939]
+        - generic [ref=e941]: Individual Advice
+      - generic [ref=e942]:
+        - img [ref=e943]
+        - generic [ref=e945]: Express Delivery
+      - generic [ref=e946]:
+        - img [ref=e947]
+        - generic [ref=e949]: Top Quality
+      - generic [ref=e951]:
+        - img [ref=e952]
+        - generic [ref=e954]: High Customer Satisfaction
+    - generic [ref=e955]:
+      - generic [ref=e961]:
+        - img "This is us" [ref=e963]
+        - generic [ref=e965]:
+          - generic [ref=e966]: This is us
+          - generic [ref=e967]:
+            - paragraph [ref=e968]: OXID eMotors is a leading manufacturer of vehicles, spare parts and accessories for all types of drivers. We offer a wide range of products that meet the needs of both drivers and enthusiasts.>/p>
+            - paragraph [ref=e969]: Our goal is to provide high-quality products at an affordable price to ensure that everyone can enjoy a perfect ride. OXID eMotors is all about performance, quality and style.
+          - generic [ref=e970] [cursor=pointer]: View now
+        - link "View now":
+          - /url: /en/About-Us/
+      - generic [ref=e976]:
+        - img "Customer service" [ref=e978]
+        - generic [ref=e980]:
+          - generic [ref=e981]: Customer service
+          - paragraph [ref=e983]: Our customer service is always there to help and advise you. We place great value on individual attention and want to ensure that every customer leaves our store with a smile on their face. Our experts are always available to answer your questions and assist you with any concerns. We pride ourselves on providing our customers with an all-around satisfying experience and look forward to hearing from you.
+          - generic [ref=e984] [cursor=pointer]: View now
+        - link "View now":
+          - /url: /en/Customer-service/
+  - contentinfo [ref=e985]:
+    - generic [ref=e987]:
+      - navigation "Service" [ref=e988]:
+        - generic [ref=e989]: Service
+        - generic [ref=e991]:
+          - link "Contact" [ref=e992] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/contact/
+          - link "Help" [ref=e993] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/Help-Main/
+          - link "Links" [ref=e994] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/links/
+          - link "Cart" [ref=e995] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/cart/
+          - link "Account" [ref=e996] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/my-account/
+          - link "Wish list" [ref=e997] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/my-notes/
+          - link "My gift registry" [ref=e998] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/my-wish-list/
+          - link "Public gift registries" [ref=e999] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/wish-lists/?wishid=
+          - link "My downloads" [ref=e1000] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/my-downloads/
+      - navigation "Information" [ref=e1001]:
+        - generic [ref=e1002]: Information
+        - generic [ref=e1004]:
+          - link "About Us" [ref=e1005] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/About-Us/
+          - link "Terms and Conditions" [ref=e1006] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/Terms-and-Conditions/
+          - link "Privacy Policy" [ref=e1007] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/Privacy-Policy/
+          - link "Shipping and Charges" [ref=e1008] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/Shipping-and-Charges/
+          - link "Right of Withdrawal" [ref=e1009] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/Right-of-Withdrawal/
+          - link "How to order?" [ref=e1010] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/How-to-order/
+          - link "Newsletter" [ref=e1011] [cursor=pointer]:
+            - /url: https://mk.oxid.academy/en/newsletter/
+      - region "Newsletter" [ref=e1013]:
+        - generic [ref=e1014]: Newsletter
+        - generic [ref=e1015]:
+          - paragraph [ref=e1016]: Get informed about the latest products and offers per email.
+          - generic [ref=e1018]:
+            - generic [ref=e1019]: Newsletter
+            - generic [ref=e1020]:
+              - textbox "E-mail" [ref=e1021]
+              - button "Subscribe" [ref=e1022] [cursor=pointer]
+      - generic [ref=e1024]:
+        - generic [ref=e1025]: Social Media
+        - link "Facebook" [ref=e1026] [cursor=pointer]:
+          - /url: https://www.facebook.com
+          - generic [ref=e1027]: Facebook
+          - img [ref=e1028]
+        - link "Instagram" [ref=e1030] [cursor=pointer]:
+          - /url: https://instagram.com
+          - generic [ref=e1031]: Instagram
+          - img [ref=e1032]
+        - link "Twitter" [ref=e1034] [cursor=pointer]:
+          - /url: https://twitter.com
+          - generic [ref=e1035]: Twitter
+          - img [ref=e1036]
+        - link "YouTube" [ref=e1038] [cursor=pointer]:
+          - /url: https://www.youtube.com
+          - generic [ref=e1039]: YouTube
+          - img [ref=e1040]
+        - link "Blog" [ref=e1042] [cursor=pointer]:
+          - /url: https://wordpress.org
+          - generic [ref=e1043]: Blog
+          - img [ref=e1044]
+    - generic [ref=e1048]:
+      - text: "* incl. tax, plus"
+      - link "shipping" [ref=e1049] [cursor=pointer]:
+        - /url: https://mk.oxid.academy/en/Shipping-and-Charges/
+    - generic [ref=e1054]: OXID Online Demoshop - your reliable partner for vehicles, spare parts and merchandise
+```
