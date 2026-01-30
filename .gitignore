@@ -2,6 +2,10 @@
 playwright-report/
 test-results/
 
+# Recorded tests (keep only example)
+tests/*.spec.js
+!tests/example.spec.js
+
 # Dependencies
 node_modules/
 

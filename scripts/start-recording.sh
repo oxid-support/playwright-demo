@@ -2,7 +2,14 @@
 set -euo pipefail
 
 : "${TARGET_URL:?TARGET_URL must be set}"
-: "${OUT_FILE:?OUT_FILE must be set}"
+
+# Generate OUT_FILE dynamically if not set
+if [ -z "${OUT_FILE:-}" ]; then
+    # Create filename from URL (remove protocol, replace special chars)
+    url_slug=$(echo "$TARGET_URL" | sed 's|https\?://||' | sed 's|[^a-zA-Z0-9]||g')
+    timestamp=$(date +%Y%m%d-%H%M)
+    OUT_FILE="tests/${url_slug}_${timestamp}.spec.js"
+fi
 
 if [ -f package-lock.json ]; then
     npm ci

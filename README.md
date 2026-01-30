@@ -7,6 +7,14 @@ Playwright-Tests ausführen und aufnehmen via Docker.
 - Docker + Docker Compose
 - Port 6080 frei (für Recording)
 
+## Installation
+
+```bash
+git clone https://github.com/michaelkeiluweit/playwright-demo.git
+cd playwright-demo
+make build
+```
+
 ## Befehle
 
 | Befehl | Beschreibung |
@@ -44,4 +52,9 @@ make report
 
 Der Dateiname wird automatisch generiert: `tests/{url}_{datum-uhrzeit}.spec.js`
 
-Beispiel: `https://example.com` → `tests/httpsexamplecom_20260130-0815.spec.js`
+Beispiel: `https://example.com` → `tests/examplecom_20260130-0815.spec.js`
+
+Optional kann ein fester Dateiname in `.env` gesetzt werden:
+```
+OUT_FILE=tests/mein-test.spec.js
+```
