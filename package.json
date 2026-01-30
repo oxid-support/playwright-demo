@@ -6,7 +6,8 @@
   },
   "scripts": {
     "test": "playwright test",
-    "test:headed": "xvfb-run playwright test --headed",
+    "test:docker": "docker compose run --rm pw",
+    "record": "docker compose run --rm --service-ports pw_record",
     "report": "playwright show-report"
   }
 }

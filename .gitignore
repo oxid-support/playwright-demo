@@ -1,0 +1,18 @@
+# Generated test artifacts
+playwright-report/
+test-results/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+*:Zone.Identifier
