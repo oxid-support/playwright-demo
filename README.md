@@ -11,7 +11,7 @@ Playwright-Tests ausführen und aufnehmen via Docker.
 ## Installation
 
 ```bash
-git clone https://github.com/michaelkeiluweit/playwright-demo.git
+git clone https://github.com/oxid-support/playwright-demo.git
 cd playwright-demo
 make build
 ```
