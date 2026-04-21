@@ -7,6 +7,7 @@ module.exports = defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
+    baseURL: process.env.BASE_URL,
     headless: true,
     trace: 'on-first-retry'
   }

@@ -5,9 +5,13 @@ services:
     init: true
     ipc: host
     shm_size: "1gb"
+    env_file:
+      - path: .env
+        required: false
     environment:
       CI: "true"
       PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
+      BASE_URL: ${BASE_URL:-}
     volumes:
       - ./:/work
       - pw_node_modules:/work/node_modules
@@ -26,7 +30,7 @@ services:
         required: false
     environment:
       PLAYWRIGHT_BROWSERS_PATH: /ms-playwright
-      TARGET_URL: ${TARGET_URL:-https://example.com}
+      BASE_URL: ${BASE_URL:-https://example.com}
       OUT_FILE: ${OUT_FILE:-tests/recorded.spec.js}
     ports:
       - "127.0.0.1:6080:6080"
